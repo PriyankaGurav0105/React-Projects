@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
- <Navbar/> {/*this is use to import components in app.js */}
+ <Navbar title ="React App"/> {/*this is use to import components in app.js  
+ and title = "React App" is the prop being sent*/}
       </>
     
   );
